@@ -1,0 +1,11 @@
+git init                         - para que la carpeta tenga opcion de versiones
+git add .                        - para añadir los archivos, . es el comodin que indica "todos"
+git commit -m "mi primer commit" - para ver con que nombre lo guardo
+git checkout -- index.php        - para revertir los cambios que aun no he guardado
+git diff index.php               - para ver las modificaciones o diferiencias con un archivo concreto
+
+git status                       - para ver el estado de mis archivos, para ir viendo como esta quedando y hay que ponerlo cada vez que hacemos algo
+git log                          - para ver todas las versiones que tengo disponibles
+
+
+al añadir un .gitignore oculta los archivos o carpetas que le añades en el archivo .gitignore y no quiero que los incluya en el proyecto
